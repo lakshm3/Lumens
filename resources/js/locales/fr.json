@@ -1,0 +1,120 @@
+{
+    "dropdown_user": {
+        "account": "Compte",
+        "logout": "Se déconnecter"
+    },
+    "components": {
+        "compressor":{
+            "name":"Compresseur"
+        },
+        "turbine": {
+            "name": "Turbine",
+            "bearing_status": "Stabilité/Palier",
+            "regularity_deviation": "Régulation",
+            "coupling": "Accouplement",
+            "shaft": "Rotor"
+        },
+        "trends": {
+            "name": "Tendances",
+            "history": "Historique",
+            "in_live": "Temps réel",
+            "indicators": "Indicateurs",
+            "time": "Temps",
+            "granularity": "Granularité",
+            "from": "Du",
+            "to": "Au",
+            "health": "Santé",
+            "points_retrieved": "{nb} points récupérés en {time}s",
+            "loading_data": "Chargement en cours ..."
+        }
+    },
+    "indicators": {
+        "speed": "Vitesse",
+        "EngineEfficiency": "Fonctionnement/Réglage",
+        "MechanicalHealth": "Etat Mécanique",
+        "BearingStatus": "Stabilité/Palier",
+        "RegularityDeviation": "Régulation",
+        "TurbineCoupling": "Accouplement",
+        "BladeStatus": "Rotor",
+        "Damper": "Damper activité",
+        "CamPump": "Cam&Pumps/Régulation Mélange",
+        "Bearing": "Paliers Embiellage",
+        "Unbalance": "Supports",
+        "Stresses": "Contraintes/Pulsations",
+        "Compression": "Compression/Soupapes",
+        "Injection": "Injection/Dispersion",
+        "InjectionCondition": "Injection/Défaut",
+        "InjectionOver": "+/- Surchauffe",
+        "StaticPower": "Puissance",
+        "StaticTorque": "Couple",
+        "StaticTorsion": "Torsion Statique",
+        "DynTorque": "Couple Dynamique",
+        "DynTorsion": "Torsion Dynamique",
+        "MBearing": "Bearing/Propeller",
+        "BS_TwistAngle": "Angle de Torsion",
+        "MStressStability": "Stress/Stability",
+        "Misfiring": "Misfiring",
+        "CPalier":"Palier Equipages Mobiles",
+        "CCompression":"Compression",
+        "CCompression_cyl":"Cylindre",
+        "TwistAngle":"Angle de torsion",
+        "Acyclism":"Angle de Torsion",
+        "PowerLoss":"Surconsommation",
+        "8KMixed": "Friction",
+        "4KMixed": "Bearings",
+        "2KMixed": "Shaft/Clearance",
+        "GlobalMixed": "Global",
+        "GlobalKurto": "Indice de choc",
+        "GlobalLevel": "Niveau RMS",
+        "BearingGlobal": "Etat mécanique",
+        "MElectromag":"Electromag",
+        "Electromag":"Electromag"
+    },
+    "drawer": {
+        "home": "Accueil",
+        "settings":"Paramètres",
+        "interfaces": "Interfaces",
+        "users": "Mes utilisateurs",
+        "sites": "Mes sites",
+        "companies": "Sociétés",
+        "logout": "Se déconnecter",
+        "equipments": "Mes équipements"
+    },
+    "interfaces": {
+        "list": {
+            "title": "Selectionner une interface existante",
+            "create_button": "Créer une nouvelle interface"
+        }
+    },
+    "home": {
+        "equipments_list": {
+            "title": "Liste des équipements",
+            "back": "Retour aux sites",
+            "device": "appareil"
+        }
+    },
+
+    "help": {
+        "potential_problems": "Défauts potentiels",
+        "observations": "Observations",
+        "description": "Description",
+        "actions": "Actions"
+    },
+
+    "auth": {
+        "login": {
+            "title": "Connexion",
+            "email": "Email",
+            "password": "Mot de passe",
+            "button": "Se connecter"
+        }
+    },
+
+    "exports":{
+        "title":"Exports des données",
+        "range_date":"Plage de dates",
+        "date_preview":"Du {from_date} au {to_date}",
+        "output_file_format": "Format du fichier de sortie",
+        "export_button":"Exporter et Télécharger"
+    }
+}

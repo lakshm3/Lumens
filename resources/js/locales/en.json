@@ -1,0 +1,116 @@
+{
+    "dropdown_user": {
+        "account": "Account",
+        "logout": "Logout"
+    },
+    "components": {
+        "compressor": {
+            "name": "Compressor"
+        },
+        "turbine": {
+            "name": "Turbine",
+            "bearing_status": "Bearing Status",
+            "regularity_deviation": "Regularity/Deviation",
+            "coupling": "Coupling",
+            "shaft": "Shaft"
+        },
+        "trends": {
+            "name": "Trend Analysis",
+            "history": "History",
+            "in_live": "In live",
+            "indicators": "Health Indicators",
+            "time": "Time",
+            "granularity": "Granularity",
+            "from": "From",
+            "to": "To",
+            "health": "Health",
+            "points_retrieved": "{nb} points retrieved in {time}s",
+            "loading_data": "Loading data ..."
+        }
+    },
+    "indicators": {
+        "speed": "Speed",
+        "EngineEfficiency": "Operating Condition",
+        "MechanicalHealth": "Mechanical Health",
+        "BearingStatus": "Bearing Status",
+        "RegularityDeviation": "Regularity/Deviation",
+        "TurbineCoupling": "Coupling",
+        "BladeStatus": "Shaft",
+        "Damper": "Damper activity",
+        "CamPump": "Pumps & Regulation",
+        "Bearing": "Bearing MovingParts",
+        "Unbalance": "Mounts",
+        "Stresses": "Stresses/Pulses",
+        "Compression": "Compression/Valves",
+        "Injection": "Injection Time",
+        "InjectionCondition": "Injection Condition",
+        "InjectionOver": "Over/Under Power",
+        "StaticPower": "Power",
+        "StaticTorque": "Couple",
+        "StaticTorsion": "Static Torsion",
+        "DynTorque": "Dynamic Torque",
+        "DynTorsion": "Dynamic Torsion",
+        "MBearing": "Bearing/Propeller",
+        "BS_TwistAngle": "Twist Angle",
+        "MStressStability": "Stress/Stability",
+        "Misfiring": "Misfiring",
+        "CCompression": "Compression",
+        "CPalier": "Bearing Mobile Parts",
+        "TwistAngle": "Twist angle",
+        "CCompression_cyl": "Cylinder",
+        "Acyclism": "Twist Angle",
+        "PowerLoss": "Fuel loss",
+        "8KMixed": "Friction",
+        "4KMixed": "Bearings",
+        "2KMixed": "Shaft/Clearance",
+        "GlobalMixed": "Global",
+        "GlobalKurto": "Shock index",
+        "GlobalLevel": "Level RMS",
+        "BearingGlobal": "Mechanical Health",
+        "Electromag": "Electromagnetic"
+    },
+    "drawer": {
+        "home": "Home",
+        "settings": "Settings",
+        "interfaces": "Interfaces",
+        "users": "My users",
+        "sites": "My sites",
+        "companies": "Companies",
+        "logout": "Logout",
+        "equipments": "My equipments"
+    },
+    "interfaces": {
+        "list": {
+            "title": "Choose your interface",
+            "create_button": "Create new interface"
+        }
+    },
+    "home": {
+        "equipments_list": {
+            "title": "Equipments list",
+            "back": "Back to sites",
+            "device": "device"
+        }
+    },
+    "help": {
+        "potential_problems": "Potential Problems",
+        "observations": "Observations",
+        "description": "Description",
+        "actions": "Actions"
+    },
+    "auth": {
+        "login": {
+            "title": "Sign in",
+            "email": "Email",
+            "password": "Password",
+            "button": "Log in"
+        }
+    },
+    "exports": {
+        "title": "Data Exports",
+        "range_date": "Range dates",
+        "date_preview": "From {from_date} To {to_date}",
+        "output_file_format": "Output File Format",
+        "export_button": "Export and download"
+    }
+}

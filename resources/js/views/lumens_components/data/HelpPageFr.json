@@ -1,0 +1,177 @@
+{
+    "MechanicalHealth": {
+        "title": "Mechanical Health",
+        "measured": [
+            "Overall indication of the mechanical condition of the engine.",
+            "The higher the indicator, the higher the mechanical wear in the engine."
+        ],
+        "potential_problems": [
+            "Presence of wear in the engine, adversely affecting maintenance intervals and the overall condition of the engine."
+        ],
+        "actions": [
+            "Overhaul of the worn components of the engine."
+        ]
+    },
+    "EngineEfficiency": {
+        "title": "Engine Efficiency",
+        "measured": [
+            "Overall indication of how efficiently the engine is running. Imbalance due to combustion and expanding gasses being unevenly distributed over the cylinders. The higher the indicator, the lower the thermal efficiency of the engine."
+        ],
+        "potential_problems": [
+            "Combustion, injection or compression related problem, adversely affecting the efficiency, maintenance intervals and operational costs of the engine."
+        ],
+        "actions": [
+            "Check other indicators for more detailed information."
+        ]
+    },
+    "Acyclism": {
+        "title": "Twist Angle (degree)",
+        "measured": [
+            "The dynamic twist (angle expressed in degrees) in the crankshaft, measured in each operating cycle."
+        ],
+        "observations": [
+            "The engine may be heavily loaded",
+            "The engine may be running irregularly during idling, which may be a fuel saving setting of the engine control system.",
+            "The torsional vibration damper may not have significant effect at current RPM."
+        ],
+        "potential_problems": [
+            "Failure of torsional vibration damper.",
+            "Problem in engine mounting and/or engine alignment."
+        ],
+        "actions": [
+            "Check torsional vibration damper.",
+            "Check engine mounting and/or engine alignment."
+        ]
+    },
+    "PowerLoss": {
+        "title": "Imbalance (%)",
+        "measured": [
+            "Overall indication of engine imbalance, expressed as a percentage, due to non-optimal Thermal Health (refer to indicator) and the inertia resistance of the rotating and moving parts."
+        ],
+        "potential_problems": [
+            "Power loss of the engine and/or increased fuel consumption."
+        ],
+        "actions": [
+            "Check Injection and Compression/Valves indicators for more detailed information."
+        ]
+    },
+    "RegularityDeviation": {
+        "title": "Régulation",
+        "potential_problems": [
+            "Défaut dans le système d’admission vapeur",
+            "Défaut dans le système de régulation lubrification des paliers, et des butées"
+        ]
+    },
+    "BearingStatus": {
+        "title": "Stabilité/Palier",
+        "potential_problems": [
+            "un défaut de fonctionnement de l'accouplement (délignage dynamique; voir indicateur \"Accouplement\")",
+            "une déformation Structure/Support",
+            "à des efforts dynamiques excessifs en provenance du réducteur (voir niveau réducteur)"
+        ]
+    },
+    "BladeStatus": {
+        "title": "Rotor",
+        "potential_problems": [
+            "Perte de serrage, instabilités dynamiques, endommagement au niveau des aubages",
+            "Perte de serrage, instabilités dynamiques, endommagement au niveau des redresseurs"
+        ]
+    },
+    "Coupling": {
+        "title": "Accouplement",
+        "measured": [
+            "Cet indicateur exprime la fatigue pendant le fonctionnement de l'accouplement pendant chaque cycle.",
+            "Il décrit aussi un délignage dynamique variable (défaut d'isocinétisme) entre la turbine et l'élément accouplé de la ligne d'arbre."
+        ],
+        "actions": [
+            "Inspection de l'état de l'accouplement",
+            "Vérification des réglages sur l'évaluation des facteurs de lignage entre la turbine et l'élément accouplé."
+        ]
+    },
+    "Compression": {
+        "title": "Compression/Valves",
+        "measured": [
+            "Deviations in compression due to leakage and/or bad timing of the valves."
+        ],
+        "potential_problems": [
+            "Incorrect valve timing.",
+            "Leakage due to a damaged valve or valve seat or major damage in liner or piston ring."
+        ],
+        "actions": [
+            "Check indicated valves on timing and valve (seat) damages."
+        ]
+    },
+    "Injection": {
+        "title": "Injection/Timing",
+        "measured": [
+            "(A)synchronous power cycles."
+        ],
+        "potential_problems": [
+            "Fuel is injected asynchronously.",
+            "Deviations of fuel injection timing in the compression stroke of one or more cylinders."
+        ],
+        "actions": [
+            "Check relevant fuel injector(s) for indicated cylinder(s).",
+            "Check relevant fuel pump(s) for indicated cylinder(s).",
+            "Check fuel pump rack.",
+            "Indicator may be related to OverPower, valve defects and/or oil "
+        ]
+    },
+    "InjectionCondition": {
+        "title": "InjectionCondition",
+        "measured": [
+            "(Sub)optimal ignition quality."
+        ],
+        "potential_problems": [
+            "Firing process deficiency.",
+            "Functional failure of indicated fuel injectors (the fuel may not be dispersed well in indicated cylinder(s))",
+            "Indicator may be related to a defective fuel pump.",
+            "Imbalance in peak firing pressure",
+            "Worn liners."
+        ],
+        "actions": [
+            "Check relevant fuel injector(s) for indicated cylinder(s)",
+            "Check relevant fuel pump(s) for indicated cylinder(s)"
+        ]
+    },
+    "InjectionOver": {
+        "title": "InjectionOver",
+        "measured": [
+            "The power contribution of indicated cylinders deviated from the other cylinders."
+        ],
+        "potential_problems": [
+            "Fuel may not be distributed equally amongst the cylinders.",
+            "Seriously damaged valves or valve seats.",
+            "Potential overheating of moving parts, piston/valves."
+        ],
+        "actions": [
+            "Check relevant fuel pump(s) for indicated cylinder(s).",
+            "Check valves for indicated cylinder(s).",
+            "Check fuel pump rack."
+        ]
+    },
+    "Unbalance": {
+        "title": "Mounts",
+        "measured": [
+            "Provides information on the overall movement of the engine(excessive chassis vibrations,foundation,aging and weak supports)"
+        ],
+        "actions": [
+            "Check the state condition of the condition of the supports (anti-vibrations pads)",
+            "Check the tightness of the support structure assemblies"
+        ]
+    },
+    "Bearing": {
+        "title": "Bearing MovingParts",
+        "measured": [
+            "The dynamic behavior of the bearings and all moving parts (crankshaft, condors, pistons, connecting rods, wrist pins, bearings). Measured per cylinder over multiple revolutions."
+        ],
+        "potential_problems": [
+            "The dynamic behavior of the bearings and all moving parts (crankshaft, condors, pistons, connecting rods, wrist pins, bearings). Measured per cylinder over multiple revolutions.",
+            "Bearings or other moving parts, directly or indirectly connected to the crankshaft, show larger than usual clearance, wear or damage."
+        ],
+        "actions": [
+            "Check quality of bearings.",
+            "Check other internal moving parts for unusual slack."
+        ]
+    }
+}

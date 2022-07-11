@@ -1,0 +1,135 @@
+[
+    {
+        "key": "MechanicalHealth"
+    },
+    {
+        "key": "EngineEfficiency"
+    },
+    {
+        "key": "Stresses"
+    },
+    {
+        "key": "Unbalance"
+    },
+    {
+        "key": "Damper"
+    },
+    {
+        "key": "InjectionCondition"
+    },
+    {
+        "key": "CamPump"
+    },
+    {
+        "key": "Bearing"
+    },
+    {
+        "key": "BearingGlobal"
+    },
+    {
+        "key": "RegularityDeviation"
+    },
+    {
+        "key": "BearingStatus"
+    },
+    {
+        "key": "BladeStatus"
+    },
+    {
+        "key": "TurbineCoupling"
+    },
+    {
+        "key": "GlobalLevel"
+    },
+    {
+        "key": "GlobalKurto"
+    },
+    {
+        "key": "GlobalMixed"
+    },
+    {
+        "key": "2KLevel"
+    },
+    {
+        "key": "2KKurto"
+    },
+    {
+        "key": "2KMixed"
+    },
+    {
+        "key": "4KLevel"
+    },
+    {
+        "key": "4KKurto"
+    },
+    {
+        "key": "4KMixed"
+    },
+    {
+        "key": "8KLevel"
+    },
+    {
+        "key": "8KKurto"
+    },
+    {
+        "key": "8KMixed"
+    },
+    {
+        "key": "Injection"
+    },
+    {
+        "key": "InjectionOver"
+    },
+    {
+        "key": "Compression"
+    },
+    {
+        "key": "StaticPower",
+        "unit":"W",
+        "fixed":0
+    },
+    {
+        "key": "StaticTorque",
+        "unit":"Nm",
+        "fixed":0
+    },
+    {
+        "key": "StaticTorsion",
+        "unit":"°",
+        "fixed":2
+    },
+    {
+        "key": "BS_TwistAngle",
+        "unit":"°",
+        "fixed":2
+    },
+    {
+        "key": "MBearing"
+    },
+    {
+        "key": "MStressStability"
+    },
+    {
+        "key": "PowerLoss"
+    },
+    {
+        "key": "Acyclism"
+    },
+    {
+        "key": "CPalier"
+    },
+    {
+        "key": "CCompression"
+    },
+    {
+        "key": "CCompression_cyl"
+    },
+    {
+        "key": "MElectromag"
+    },
+    {
+        "key": "TwistAngle",
+        "unit":"°",
+        "fixed":2
+    }
+]
